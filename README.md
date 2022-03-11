@@ -1,4 +1,4 @@
-# Crypto  
+# ECC  
 
 Elliptic Curve Calculation Library over Finite Fields
 
