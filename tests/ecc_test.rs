@@ -1,7 +1,7 @@
 //!
 //! Elliptic Curve Calculation Test Program
 //!
-//  Wrtten by blanclux
+//  Written by blanclux
 //  This software is distributed on an "AS IS" basis WITHOUT WARRANTY OF ANY KIND.
 extern crate ecc;
 
@@ -287,7 +287,7 @@ fn get_g_bi(param: &EcParam) -> Vec<u8> {
     g.to_bytes_be().1
 }
 
-/// Perormance test
+/// Performance test
 fn do_perform(ecp: &impl EcOp<IBig>, k: &IBig) {
     println!("> EC mul performance");
     println!(" k = {}", k);
@@ -362,7 +362,7 @@ fn do_test_bi(ecp: &impl EcOp<BigInt>) {
     assert!(ecp.is_zero(&p_q));
 }
 
-/// Perormance test
+/// Performance test
 fn do_perform_bi(ecp: &impl EcOp<BigInt>, k: &BigInt) {
     println!("> EC mul performance");
     println!(" k = {}", k);

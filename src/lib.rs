@@ -1,7 +1,7 @@
 //!
 //! Elliptic Curve Calculation Library
 //!
-//  Wrtten by blanclux
+//  Written by blanclux
 //  This software is distributed on an "AS IS" basis WITHOUT WARRANTY OF ANY KIND.
 pub mod ec_param;
 pub mod ecc_a;

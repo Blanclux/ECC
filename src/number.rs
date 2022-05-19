@@ -1,7 +1,7 @@
 //!
 //! Number trait
 //!
-//  Wrtten by blanclux
+//  Written by blanclux
 //  This software is distributed on an "AS IS" basis WITHOUT WARRANTY OF ANY KIND.
 use ibig::{ibig, IBig, UBig};
 use num_bigint::{BigInt, RandBigInt, Sign};

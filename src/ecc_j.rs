@@ -1,7 +1,7 @@
 //!
 //! Elliptic Curve Calculation (Projective - Jacobian)
 //!
-//  Wrtten by blanclux
+//  Written by blanclux
 //  This software is distributed on an "AS IS" basis WITHOUT WARRANTY OF ANY KIND.
 use super::ec_param::{EcParam, ParamOp};
 use super::number::Number;
